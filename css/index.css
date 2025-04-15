@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #f9f8fe;
 }
 
@@ -29,10 +29,11 @@ body{
         background-color: #991956;
     }
 
-    &.inverso{
+    &.inverso {
         background-color: #F5F5F5;
         color: #C92071 !important;
-        &:hover{
+
+        &:hover {
             background-color: #B5B6F2;
             color: white !important;
         }
@@ -137,7 +138,8 @@ header {
         }
     }
 }
-#banner{
+
+#banner {
     display: flex;
     align-items: center;
     padding-left: 100px;
@@ -145,36 +147,37 @@ header {
     position: relative;
     justify-content: flex-end;
 
-    & .conteudo{
+    & .conteudo {
         position: absolute;
         left: 100px;
         top: 50%;
         transform: translateY(-50%);
 
-        & h6{
+        & h6 {
             color: #F6AA1C;
             font-size: 16px;
             margin-bottom: 20px;
         }
 
-        & h2{
+        & h2 {
             font-size: 64px;
             line-height: 66px;
             margin-bottom: 20px;
         }
 
-        & p{
+        & p {
             color: #474747;
             font-size: 18px;
             line-height: 34px;
             margin-bottom: 40px;
         }
 
-        & .btn{
+        & .btn {
             width: 220px;
         }
     }
-    & .detalhe{
+
+    & .detalhe {
         width: auto;
         position: absolute;
         top: 78px;
@@ -184,8 +187,8 @@ header {
 }
 
 
-main{ 
-    
+main {
+
     #destaques {
         padding: 0 100px;
 
@@ -194,12 +197,13 @@ main{
             font-size: 24px;
             margin-bottom: 20px;
         }
-        .colecoes{
+
+        .colecoes {
             display: flex;
             gap: 12px;
             margin-bottom: 100px;
 
-            & > div{
+            &>div {
                 background-color: #D8E3F2;
                 flex: 1;
                 padding-left: 30px;
@@ -208,12 +212,12 @@ main{
                 position: relative;
                 border-radius: 8px;
 
-                & .conteudo{
+                & .conteudo {
                     position: relative;
                     z-index: 1;
                 }
 
-                h6{
+                h6 {
                     font-size: 14px;
                     text-transform: uppercase;
                     line-height: 32px;
@@ -224,16 +228,16 @@ main{
                     margin-bottom: 10px;
                 }
 
-                h2{
+                h2 {
                     font-size: 32px;
                     margin-bottom: 20px;
                 }
 
-                .btn{
+                .btn {
                     width: 150px;
                 }
 
-                img{
+                img {
                     position: absolute;
                     right: 0;
                     bottom: 0;
@@ -241,12 +245,12 @@ main{
 
             }
 
-            & + h3{
+            &+h3 {
                 text-align: center;
             }
         }
 
-        .departamentos{
+        .departamentos {
             display: flex;
             justify-content: center;
             gap: 48px;
@@ -254,7 +258,7 @@ main{
             font-size: 14px;
             text-align: center;
 
-            .icon{
+            .icon {
                 width: 104px;
                 height: 104px;
                 border-radius: 50%;
@@ -265,19 +269,19 @@ main{
                 align-items: center;
                 transition-duration: 200ms;
 
-                &:hover{
+                &:hover {
                     box-shadow: 0 0 70px #00000020;
                 }
 
-                img{
+                img {
                     width: 64px;
                     filter: invert(57%) sepia(0%) hue-rotate(147deg) brightness(98%) contrast(97%);
 
-                    &.bone{
+                    &.bone {
                         width: 95px;
                     }
 
-                    &:hover{
+                    &:hover {
                         filter: invert(20%) sepia(65%) saturate(3303%) hue-rotate(313deg) brightness(94%) contrast(95%);
                     }
                 }
@@ -315,7 +319,7 @@ main{
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 24px;
 
-            & .card{ 
+            & .card {
                 & a {
                     display: block;
                     color: black;
@@ -340,7 +344,7 @@ main{
                             margin-bottom: 10px;
                         }
 
-                        img{
+                        img {
                             width: 100%;
 
                         }
@@ -363,7 +367,7 @@ main{
                         font-size: 24px;
                         line-height: 38px;
 
-                        & del{
+                        & del {
                             color: #474747;
                             font-weight: normal;
                             text-decoration: line-through;
@@ -375,24 +379,24 @@ main{
         }
     }
 
-    #oferta{
+    #oferta {
         padding: 100px;
         display: flex;
         align-items: center;
         background-color: white;
         gap: 70px;
 
-        .produto-oferta{
+        .produto-oferta {
             width: 400px;
             position: relative;
             z-index: 2;
         }
 
-        & > div{
+        &>div {
             position: relative;
         }
 
-        .produto-detalhe{
+        .produto-detalhe {
             width: 350px;
             height: 350px;
             background-image: linear-gradient(#4200ff50, transparent 60%);
@@ -405,63 +409,102 @@ main{
         }
 
 
-        h6{
+        h6 {
             font-size: 12px;
             color: #C92071;
             line-height: 22px;
             margin-bottom: 16px;
         }
 
-        p{
+        p {
             font-size: 16px;
             line-height: 28px;
             color: #474747;
             margin-bottom: 30px;
         }
 
-        h2{
+        h2 {
             font-family: 48px;
             line-height: 28px;
             color: #474747;
             margin-bottom: 30px;
         }
-        .btn{
+
+        .btn {
             width: 200px;
         }
     }
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     padding: 100px 100px 0 100px;
 
-    & .rodape{
+    & .rodape {
         display: flex;
         justify-content: space-between;
-        & .conteudo{
+
+        & .conteudo {
             width: 300px;
-            & img{
+
+            & img {
                 margin-bottom: 35px;
 
-               & p{
-                    font-size: 16px;
-                    line-height: 26px;
-                    margin-bottom: 40px;
-                }
+            }
+            & p {
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 40px;
+            }
 
-                & .redes{
-                    display: flex;
-                    gap: 35px;
-                    & box-icon{
-                        fill: white;
-                        transition-duration: 200ms;
-                        &:hover{
-                            fill: #C92071;
-                        }
+            & .redes {
+                display: flex;
+                gap: 35px;
+
+                & box-icon {
+                    fill: white;
+                    transition-duration: 200ms;
+
+                    &:hover {
+                        fill: #C92071;
                     }
                 }
             }
         }
+
+        & .sitemap {
+            display: flex;
+            gap: 50px;
+
+            & div {
+                width: 170px;
+
+                h5 {
+                    font-size: 18px;
+                    margin-bottom: 28px;
+                }
+                & a {
+                    display: block;
+                    color: white;
+                    transition-duration: 200ms;
+                    margin-bottom: 18px;
+        
+                    &:hover {
+                        color: #C92071;
+                    }
+                }
+            }
+        }
+
+    }
+
+    & h6{
+        text-align: center;
+        padding: 22px 0;
+        border-top: 1px solid #ffffff50;
+        font-size: 13px;
+        font-weight: normal;
+        margin-top: 34px;
     }
 }
